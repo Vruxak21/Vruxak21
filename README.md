@@ -14,12 +14,15 @@
 - 💬 **Always open to exciting collaborations, hackathons, and building impactful tech**
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Vruxak21&color=blue)
+---
 
 ## 🌐 Connect with me:
 <p align="left">
   <a href="https://www.linkedin.com/in/vruxak-patel"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/></a>
   <a href="mailto:patelvruxak21@gmail.com"><img src="https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge"/></a>
 </p>
+
+---
 
 ## 💻 Tech Stack:
 <p align="center"><div>
@@ -36,13 +39,18 @@
 </div>
 </p>
 
+---
+
 ## 📌 Top Projects
 - 🔹 [**TradeFlow- AI-Powered Stock Analysis Platform**](https://github.com/Vruxak21/TradeFlow)
 - 🔹 [**Vizio AI- Automated Video Generation SaaS**](https://github.com/Vruxak21/Vizio-AI)
 - 🔹 [**CodeZap- AI-Powered Full-Stack App Generator**](https://github.com/Vruxak21/CodeZap)
 - 🔹 [**Frame2Flow- Wireframe to Code Converter**](https://github.com/Vruxak21/Frame2Flow)
 
+---
+
 ## 📊 GitHub Stats:
+
 <p>
   <img src="https://github-readme-stats.vercel.app/api?username=Vruxak21&show_icons=true&theme=dark" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vruxak21&layout=compact&theme=dark" alt="Top Languages" />
