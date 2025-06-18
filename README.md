@@ -53,12 +53,10 @@
 ---
 
 ## 📌 Top Projects
-- 🔹 [**Insight-360-R - AI based Research Paper to PPT Generator**](https://github.com/Vedantt-Patel/Insight-360-R)
-- 🔹 [**VoltRide-Seamless-and-Secure-EV-Rentals**](https://github.com/Vedantt-Patel/VoltRide-Seamless-and-Secure-EV-Rentals)
-- 🔹 [**Kavach - AI-Powered eKYC**](https://github.com/Vedantt-Patel/Kavach-eKYC-platform)
-- 🔹 [**VidhyaEval - Speech Quality Evaluator**](https://github.com/Vedantt-Patel/Speech-Quality-Evaluator)
-- 🔹 [**Jobify - Job Portal API**](https://github.com/Vedantt-Patel/Jobify-nodejs-job-portal)
-- 🔹 [**Together4U - Club Management System**](https://github.com/Vedantt-Patel/Club-Management)
+- 🔹 [**TradeFlow- AI-Powered Stock Analysis Platform**](https://github.com/Vruxak21/TradeFlow)
+- 🔹 [**Vizio AI- Automated Video Generation SaaS**](https://github.com/Vruxak21/Vizio-AI)
+- 🔹 [**CodeZap- AI-Powered Full-Stack App Generator**](https://github.com/Vruxak21/CodeZap)
+- 🔹 [**Frame2Flow- Wireframe to Code Converter**](https://github.com/Vruxak21/Frame2Flow)
 
 ---
 
