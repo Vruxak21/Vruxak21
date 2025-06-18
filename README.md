@@ -51,7 +51,7 @@
 
 ## 📊 GitHub Stats:
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=Vruxak21&show_icons=true&theme=dark" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vruxak21&layout=compact&theme=dark" alt="Top Languages" />
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=Vruxak21&show_icons=true&theme=dark" alt="GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vruxak21&layout=compact&theme=dark" alt="Top Languages" height="180"/>
 </p>
