@@ -42,10 +42,10 @@
 ---
 
 ## 📌 Top Projects
-🔹 [**TradeFlow- AI-Powered Stock Analysis Platform**](https://github.com/Vruxak21/TradeFlow)
-🔹 [**Vizio AI- Automated Video Generation SaaS**](https://github.com/Vruxak21/Vizio-AI)
-🔹 [**CodeZap- AI-Powered Full-Stack App Generator**](https://github.com/Vruxak21/CodeZap)
-🔹 [**Frame2Flow- Wireframe to Code Converter**](https://github.com/Vruxak21/Frame2Flow)
+- 🔹 [**TradeFlow- AI-Powered Stock Analysis Platform**](https://github.com/Vruxak21/TradeFlow)
+- 🔹 [**Vizio AI- Automated Video Generation SaaS**](https://github.com/Vruxak21/Vizio-AI)
+- 🔹 [**CodeZap- AI-Powered Full-Stack App Generator**](https://github.com/Vruxak21/CodeZap)
+- 🔹 [**Frame2Flow- Wireframe to Code Converter**](https://github.com/Vruxak21/Frame2Flow)
 
 ---
 
