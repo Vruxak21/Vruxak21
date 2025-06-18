@@ -1,68 +1,25 @@
-<div align="center">
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHc4NTg4aDM5azFiczBybXN3cjN6OGU2dTIxZ2J2djAzMDh2a2FudiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/5eLDrEaRGHegx2FeF2/giphy.gif" width="150"/>
-  <img alt="github contribution snake animation" src="https://github.com/SerKirtan/Snake-Animation/blob/main/snake.svg">
-  
-  # Hey there! I'm Vedant Patel 👋
-  **ML & AI Enthusiast | API & Backend Development | Innovator**
+<h1 align="center">Hi 👋, I'm Vruxak Patel</h1>
+<h3 align="center">🔥 Passionate about Frontend Development, AI/ML, and Real-World Problem Solving 💡 Finalist @ NASA Space Apps 2024 | Cleared Smart India Hackathon Internal Round 💻 Skilled in React, Tailwind CSS, Node.js, and integrating AI into web apps 🌱 Currently exploring GenAI, AI Agents, Full-Stack SaaS 🏆 Top 15 Project @ NASA Hack 💬 Always open to exciting collaborations, hackathons, and building impactful tech 🚀</h3>
 
-</div>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=vruxak21&label=Profile%20views&color=0e75b6&style=flat" alt="vruxak21" /> </p>
 
-  ## 🚀 About Me
-- 🔥 Passionate about **AI, ML, NLP, Computer Vision & Backend Development**
-- 💡 Finalist @ **JPMorgan Chase & Co. Code for Good 2024**
-- 💻 Experienced in **Backend APIs, Full-Stack & AI Models**
-- 🌱 Constantly learning **Deep Learning, GenAI, Language Models and Vision Models**
-- 🏆 **Hackathon finalist & award-winning problem solver**
-- 💬 **Always open to collaborations & interesting discussions!**
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=vruxak21" alt="vruxak21" /></a> </p>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Vedantt-Patel&color=blue)
----
+<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-## 🌐 Connect with me:
+- 📫 How to reach me **patelvruxak21@gmail.com**
+
+<h3 align="left">Connect with me:</h3>
 <p align="left">
-  <a href="https://www.linkedin.com/in/vedant-patel-machine-learning"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/></a>
-  <a href="https://leetcode.com/u/Vedant2912/"><img src="https://img.shields.io/badge/LeetCode-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Badge"/></a>
-  <a href="https://www.kaggle.com/vedantkpatel"><img src="https://img.shields.io/badge/Kaggle-blue?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle Badge"/></a>
-  <a href="mailto:vedxnt2912@gmail.com"><img src="https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge"/></a>
-  <a href="https://medium.com/@Vedant-Patel"><img src="https://img.shields.io/badge/Medium-black?style=for-the-badge&logo=medium&logoColor=white" alt="Medium Badge"/></a>
+<a href="https://linkedin.com/in/vruxak-patel" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="vruxak-patel" height="30" width="40" /></a>
 </p>
 
----
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
 
-## 💻 Tech Stack:
-<p align="left"><div>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" title="C++" alt="C++" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL" alt="MySQL" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/express/express-original.svg" title="ExpressJS" alt="ExpressJS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/pytorch/pytorch-original.svg" title="PyTorch" alt="PyTorch" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/opencv/opencv-original.svg" title="OpenCV" alt="OpenCV" width="40" height="40"/>&nbsp;
-</div>
-</p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=vruxak21&show_icons=true&locale=en&layout=compact" alt="vruxak21" /></p>
 
----
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=vruxak21&show_icons=true&locale=en" alt="vruxak21" /></p>
 
-## 📌 Top Projects
-- 🔹 [**Insight-360-R - AI based Research Paper to PPT Generator**](https://github.com/Vedantt-Patel/Insight-360-R)
-- 🔹 [**VoltRide-Seamless-and-Secure-EV-Rentals**](https://github.com/Vedantt-Patel/VoltRide-Seamless-and-Secure-EV-Rentals)
-- 🔹 [**Kavach - AI-Powered eKYC**](https://github.com/Vedantt-Patel/Kavach-eKYC-platform)
-- 🔹 [**VidhyaEval - Speech Quality Evaluator**](https://github.com/Vedantt-Patel/Speech-Quality-Evaluator)
-- 🔹 [**Jobify - Job Portal API**](https://github.com/Vedantt-Patel/Jobify-nodejs-job-portal)
-- 🔹 [**Together4U - Club Management System**](https://github.com/Vedantt-Patel/Club-Management)
-
----
-
-## 📊 GitHub Stats:
-
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=Vedantt-Patel&show_icons=true&theme=dark" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vedantt-Patel&layout=compact&theme=dark" alt="Top Languages" />
-</p>
-
----
-
-✨ **From Vision to Reality—One Algorithm at a Time!** 🚀
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=vruxak21&" alt="vruxak21" /></p>
+z
