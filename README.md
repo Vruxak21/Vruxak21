@@ -1,6 +1,8 @@
 <div align="center">
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHc4NTg4aDM5azFiczBybXN3cjN6OGU2dTIxZ2J2djAzMDh2a2FudiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/5eLDrEaRGHegx2FeF2/giphy.gif" width="150"/>
   
+  ![snake gif](https://github.com/Vruxak21/Vruxak21/blob/output/github-snake-dark.svg)
+  
   # Hey there! I'm Vruxak Patel 👋
   **AI/ML Enthusiast | Frontend Developer | Innovator**
 </div>
