@@ -8,7 +8,7 @@
 </div>
 
   ## 🚀 About Me
-- 🔥 Passionate about **Passionate about Frontend Development, AI/ML, and Real-World Problem Solving**
+- 🔥 Passionate about **Frontend Development, AI/ML, and Real-World Problem Solving**
 - 💡 Finalist @ **NASA Space Apps 2024** | **Cleared Smart India Hackathon Internal Round**
 - 💻  Skilled in **React**, **Tailwind CSS**, and integrating **AI into web apps**
 - 🌱 Currently exploring **AI Agents, Deep Learning, GenAI, Language Models and Vision Models**
