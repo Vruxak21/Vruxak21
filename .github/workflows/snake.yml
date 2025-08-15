@@ -1,36 +1,60 @@
 name: GitHub Snake Game
 
+# Enhanced permissions for better access
 permissions:
-  contents: write 
+  contents: write
+  actions: read
 
 on:
+  # Run automatically on every push to any branch
+  push:
+  
+  # Run on pull requests (optional)
+  pull_request:
+  
+  # Allow manual triggering
+  workflow_dispatch:
+  
+  # Also run daily as backup
   schedule:
     - cron: "0 0 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-
+    timeout-minutes: 15
+    
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
-
+        uses: actions/checkout@v4
+        with:
+          # Fetch full history to ensure all contributions are available
+          fetch-depth: 0
+          
       - name: Generate GitHub Contributions Snake Animations
         uses: Platane/snk@v3
         with:
+          # Use the repository owner's username
           github_user_name: ${{ github.repository_owner }}
+          # Alternative: Use your actual GitHub username directly
+          # github_user_name: YOUR_GITHUB_USERNAME_HERE
+          
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            
         env:
+          # Use the GitHub token with proper permissions
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+          
+      - name: Show generated files (for debugging)
+        run: |
+          echo "Generated files:"
+          ls -la dist/
+          echo "File sizes:"
+          du -h dist/*
+          
       - name: Deploy to Output Branch
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -38,3 +62,5 @@ jobs:
           publish_dir: ./dist
           publish_branch: output
           commit_message: "Update snake animation [skip ci]"
+          # Force push to ensure fresh deployment
+          force_orphan: true
