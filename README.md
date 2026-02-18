@@ -15,7 +15,7 @@
 
 - 🎓 3rd year CS undergrad @ **Nirma University** (Scholarship Holder | CGPA: 8.14)
 - 💼 Former **SWE Intern @ Inslyt** · **Frontend Intern @ Clezid**
-- 🏆 **Top 15 globally** @ NASA Space Apps Challenge 2024 | Cleared SIH Internal Round
+- 🏆 **Top 15** @ NASA Space Apps Challenge 2024 | Cleared SIH Internal Round
 - 🤖 Building with **AI Agents, LLMs, Deep Learning, and GenAI**
 - 🌐 President @ **Google Developer Group, Nirma University**
 - 💬 Always open to exciting collaborations, hackathons, and building impactful tech
@@ -77,7 +77,7 @@
 
 ## 🏆 Achievements
 
-- 🥇 **Top 15 globally** — NASA Space Apps Challenge 2024 (thousands of teams worldwide)
+- 🥇 **Top 15** — NASA Space Apps Challenge 2024 (thousands of teams worldwide)
 - ✅ **Cleared Smart India Hackathon** Internal Round
 - 💡 **Codeforces** — Rating 905 | 150+ problems solved
 - 💡 **LeetCode** — Rating 1470 | 85+ problems solved
