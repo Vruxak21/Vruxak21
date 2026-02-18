@@ -77,16 +77,7 @@
 
 ## 🏆 Achievements
 
-- 🥇 **Top 15** — NASA Space Apps Challenge 2024 (thousands of teams worldwide)
+- 🥇 **Top 15** — NASA Space Apps Challenge 2024
 - ✅ **Cleared Smart India Hackathon** Internal Round
 - 💡 **Codeforces** — Rating 905 | 150+ problems solved
 - 💡 **LeetCode** — Rating 1470 | 85+ problems solved
-
----
-
-## 📊 GitHub Stats
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Vruxak21&show_icons=true&theme=dark" alt="GitHub Stats" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vruxak21&layout=compact&theme=dark" alt="Top Languages" height="180"/>
-</p>
