@@ -4,7 +4,7 @@
   ![snake gif](https://github.com/Vruxak21/Vruxak21/blob/output/github-snake-dark.svg)
 
   # Hey there! I'm Vruxak Patel 👋
-  **SWE Intern @ Inslyt · GDG Organizer · AI/ML & Full Stack Developer**
+  **GDG Organizer · AI/ML & Full Stack Developer**
 
   ![Profile Views](https://komarev.com/ghpvc/?username=Vruxak21&color=blue)
 </div>
