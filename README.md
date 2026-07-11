@@ -30,7 +30,7 @@
 
 <!-- ═══ Row 4: Achievements + Work Experience (side by side) ══════════════ -->
 <table width="860" border="0" cellpadding="0" cellspacing="0"><tr>
-<td width="430" valign="top"><img src="./achievements-card.svg?v=1" width="428" alt="Achievements" /></td>
+<td width="430" valign="top"><img src="./achievements-card.svg?v=2" width="428" alt="Achievements" /></td>
 <td width="430" valign="top"><img src="./work-exp-card.svg?v=1" width="428" alt="Work Experience" /></td>
 </tr></table>
 
