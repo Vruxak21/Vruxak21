@@ -14,7 +14,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "info-card.svg")
 STATIC = bool(os.environ.get("STATIC"))
 
-W, H = 480, 400
+W, H = 480, 430
 PAD = 20
 TITLEBAR_H = 30
 KEY_X = PAD
@@ -47,21 +47,22 @@ HOST = "Vruxak21"   # shown as  Vruxak21@github  in the header
 
 ROWS = [
     ("host",),
-    ("kv", "Now",       "CS Student & Developer"),
-    ("kv", "Focus",     "Full-Stack & ML Projects"),
-    ("kv", "Edu",       "B.Tech Computer Science"),
+    ("kv", "Now",    "GDG President @ Nirma University"),
+    ("kv", "SDE",    "SWE Intern @ CheckMyWarranty '26"),
+    ("kv", "Prev",   "SWE @ Inslyt · FE Intern @ Clezid"),
+    ("kv", "Edu",    "B.Tech CSE, Nirma Univ '27 · 8.31"),
     ("gap",),
     ("sec", "Stack"),
-    ("kv", "Languages", "Python, JavaScript, C++, Java"),
-    ("kv", "Frontend",  "React, HTML / CSS"),
-    ("kv", "Backend",   "Node.js, Flask, REST APIs"),
-    ("kv", "Data / ML", "NumPy, Pandas, scikit-learn"),
-    ("kv", "Tools",     "Git, Docker, VS Code, Linux"),
+    ("kv", "Languages", "C++, Python, TypeScript, SQL"),
+    ("kv", "Frontend",  "React, Next.js, React Native"),
+    ("kv", "Backend",   "Node.js, FastAPI, Express.js"),
+    ("kv", "AI / ML",   "TensorFlow, BERT, LangChain"),
+    ("kv", "Infra",     "Docker, AWS, GCP, Supabase"),
     ("gap",),
-    ("sec", "Highlights"),
-    ("bul", "Building real-world projects end-to-end"),
-    ("bul", "Believe in Yourself — keep shipping"),
-    ("bul", "Open to collaborations & opportunities"),
+    ("sec", "Wins"),
+    ("bul", "2x Hackathon Winner: HACKaMINeD & BREACH 2026"),
+    ("bul", "NASA Space Apps Challenge 2024 — Top 15"),
+    ("bul", "CF Rating 905 · LC Rating 1470"),
 ]
 
 
