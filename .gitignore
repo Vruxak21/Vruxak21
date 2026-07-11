@@ -1,1 +1,30 @@
+# ─── Quick Look / preview thumbnails ─────────────────────────────────────────
+# Generated locally by `qlmanage -t`, never needed in the remote
 *.svg.png
+
+# ─── Local-only source assets ─────────────────────────────────────────────────
+# Processed portrait — only needed locally for portrait re-generation
+source-prepped.png
+
+# Any raw input photos you drop here
+*.jpg
+*.jpeg
+*.png
+!avi-ascii.svg     # (safety: keep SVGs — these are the actual README panels)
+!*.svg
+
+# ─── Internal project files ───────────────────────────────────────────────────
+# Original setup prompt + template — replaced by the final README.md
+PROMPT.md
+profile-README-template.md
+
+# ─── Python artifacts ─────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# ─── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
