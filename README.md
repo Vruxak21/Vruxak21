@@ -23,11 +23,6 @@
 <td width="430"><img src="./info-card.svg?v=2" width="428" alt="Roles, stack & achievements" /></td>
 </tr></table>
 
-<!-- ═══ Row 5: Contribution heatmap (auto-refreshed daily) ═══════════════ -->
-<img src="./contrib-heatmap.svg?v=1" width="860" alt="GitHub contribution graph — refreshed daily" />
-
-<br>
-
 <!-- ═══ Row 3: Projects card ═══════════════════════════════════════════════ -->
 <img src="./projects-card.svg" width="860" alt="Featured Projects — vruxak@github: ~/projects $ ls -la" />
 
@@ -38,5 +33,8 @@
 <td width="430" valign="top"><img src="./achievements-card.svg?v=2" width="428" alt="Achievements" /></td>
 <td width="430" valign="top"><img src="./work-exp-card.svg?v=2" width="428" alt="Work Experience" /></td>
 </tr></table>
+
+<!-- ═══ Row 5: Contribution heatmap (auto-refreshed daily) ═══════════════ -->
+<img src="./contrib-heatmap.svg?v=1" width="860" alt="GitHub contribution graph — refreshed daily" />
 
 </div>
