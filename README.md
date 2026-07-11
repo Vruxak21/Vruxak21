@@ -9,8 +9,8 @@
 <!-- ═══ Row 1: ASCII portrait + neofetch info card ═══════════════════════ -->
 <table>
 <tr>
-<td valign="top"><img src="./avi-ascii.svg" width="370" alt="ASCII portrait of Vruxak Patel" /></td>
-<td valign="top"><img src="./info-card.svg" width="490" alt="Roles, stack & achievements" /></td>
+<td valign="top"><img src="./avi-ascii.svg" width="428" alt="ASCII portrait of Vruxak Patel" /></td>
+<td valign="top"><img src="./info-card.svg" width="428" alt="Roles, stack & achievements" /></td>
 </tr>
 </table>
 
