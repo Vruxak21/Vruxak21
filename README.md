@@ -34,8 +34,6 @@
 <td width="430" valign="top"><img src="./work-exp-card.svg?v=2" width="428" alt="Work Experience" /></td>
 </tr></table>
 
-<br>
-
 <!-- ═══ Row 5: Contribution heatmap (auto-refreshed daily) ═══════════════ -->
 <img src="./contrib-heatmap.svg?v=1" width="860" alt="GitHub contribution graph — refreshed daily" />
 
