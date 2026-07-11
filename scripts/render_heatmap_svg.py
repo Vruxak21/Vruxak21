@@ -29,7 +29,7 @@ TITLEBAR_H = 30
 
 BG = "#0a0e14"
 BG2 = "#0d1420"
-FRAME = "#1f6feb"
+FRAME = "#30363d"
 MUTED = "#7d8590"
 TEXT = "#e6edf3"
 ACCENT = "#22d3ee"
