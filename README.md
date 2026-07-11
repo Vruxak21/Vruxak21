@@ -6,16 +6,7 @@
 
 <div align="center">
 
-<!-- ═══ Row 1: ASCII portrait + neofetch info card ═══════════════════════ -->
-<table>
-<tr>
-<td valign="top"><img src="./avi-ascii.svg?v=2" width="428" alt="ASCII portrait of Vruxak Patel" /></td>
-<td valign="top"><img src="./info-card.svg?v=2" width="428" alt="Roles, stack & achievements" /></td>
-</tr>
-</table>
-
-<br>
-
+<!-- ═══ Row 1: Header + Badges ═════════════════════════════════════════════ -->
 <img src="./header-card.svg?v=1" width="860" alt="Vruxak Patel — GDG Organizer · AI/ML & Full Stack Developer · Scholarship Holder" />
 
 <br>
@@ -28,17 +19,27 @@
 
 <br>
 
-<!-- ═══ Row 2: Projects card ═══════════════════════════════════════════════ -->
+<!-- ═══ Row 2: ASCII portrait + neofetch info card ═══════════════════════ -->
+<table>
+<tr>
+<td valign="top"><img src="./avi-ascii.svg?v=2" width="428" alt="ASCII portrait of Vruxak Patel" /></td>
+<td valign="top"><img src="./info-card.svg?v=2" width="428" alt="Roles, stack & achievements" /></td>
+</tr>
+</table>
+
+<br>
+
+<!-- ═══ Row 3: Projects card ═══════════════════════════════════════════════ -->
 <img src="./projects-card.svg" width="860" alt="Featured Projects — vruxak@github: ~/projects $ ls -la" />
 
 <br>
 
-<!-- ═══ Row 3: Achievements + Work Experience card ════════════════════════ -->
+<!-- ═══ Row 4: Achievements + Work Experience card ════════════════════════ -->
 <img src="./achievements-card.svg" width="860" alt="Achievements & Work Experience — vruxak@github: ~$ cat achievements.md" />
 
 <br>
 
-<!-- ═══ Row 4: Contribution heatmap (auto-refreshed daily) ═══════════════ -->
+<!-- ═══ Row 5: Contribution heatmap (auto-refreshed daily) ═══════════════ -->
 <img src="./contrib-heatmap.svg" width="860" alt="GitHub contribution graph — refreshed daily" />
 
 </div>
