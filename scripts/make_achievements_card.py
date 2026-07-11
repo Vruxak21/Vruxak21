@@ -130,7 +130,7 @@ print(f"wrote {OUT_A} ({len(svg_a)} bytes); {W} x {ach_H}")
 
 # ── Card 2: Work Experience ─────────────────────────────────────────────────
 work_content_h = SEC_H + len(WORK) * WORK_H
-work_H = TITLEBAR_H + PAD + work_content_h + PAD
+work_H = ach_H  # force same height as achievements card for visual symmetry
 
 parts_w = card_shell(work_H, "wbg", "vruxak@github: ~$ cat work-exp.md")
 
