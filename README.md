@@ -17,15 +17,11 @@
 [![LeetCode](https://img.shields.io/badge/LeetCode-1470-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Vruxak21/)
 ![Profile Views](https://komarev.com/ghpvc/?username=Vruxak21&color=0d1117&style=for-the-badge&label=profile+views)
 
-<br>
-
 <!-- ═══ Row 2: ASCII portrait + neofetch info card ═══════════════════════ -->
 <table width="860" border="0" cellpadding="0" cellspacing="0"><tr>
 <td width="430"><img src="./avi-ascii.svg?v=2" width="428" alt="ASCII portrait of Vruxak Patel" /></td>
 <td width="430"><img src="./info-card.svg?v=2" width="428" alt="Roles, stack & achievements" /></td>
 </tr></table>
-
-<br>
 
 <!-- ═══ Row 3: Projects card ═══════════════════════════════════════════════ -->
 <img src="./projects-card.svg" width="860" alt="Featured Projects — vruxak@github: ~/projects $ ls -la" />
