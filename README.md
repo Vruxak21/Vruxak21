@@ -20,7 +20,10 @@
 <br>
 
 <!-- ═══ Row 2: ASCII portrait + neofetch info card ═══════════════════════ -->
-<img src="./avi-ascii.svg?v=2" width="428" alt="ASCII portrait of Vruxak Patel" /> <img src="./info-card.svg?v=2" width="428" alt="Roles, stack & achievements" />
+<table width="860" border="0" cellpadding="0" cellspacing="0"><tr>
+<td width="430"><img src="./avi-ascii.svg?v=2" width="428" alt="ASCII portrait of Vruxak Patel" /></td>
+<td width="430"><img src="./info-card.svg?v=2" width="428" alt="Roles, stack & achievements" /></td>
+</tr></table>
 
 <br>
 
