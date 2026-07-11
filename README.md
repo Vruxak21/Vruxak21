@@ -16,9 +16,7 @@
 
 <br>
 
-## Vruxak Patel
-
-**GDG Organizer · AI/ML & Full Stack Developer · Scholarship Holder**
+<img src="./header-card.svg?v=1" width="860" alt="Vruxak Patel — GDG Organizer · AI/ML & Full Stack Developer · Scholarship Holder" />
 
 <br>
 
