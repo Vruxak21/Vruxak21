@@ -41,20 +41,12 @@ jobs:
 
       - name: Commit & push if changed
         run: |
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
           # If contrib-heatmap.svg or data/contributions.json changed, bust cache in README.md
           if ! git diff --quiet contrib-heatmap.svg data/contributions.json; then
-            TIMESTAMP=$(date +%s)
-            python3 -c "
-import re
-with open('README.md', 'r') as f:
-    text = f.read()
-text = re.sub(r'contrib-heatmap\.svg(\?v=[^\"]*)?', f'contrib-heatmap.svg?v=${TIMESTAMP}', text)
-with open('README.md', 'w') as f:
-    f.write(text)
-"
+            python3 -c 'import re, time; f=open("README.md", "r+"); t=re.sub(r"contrib-heatmap\.svg(\?v=[^\"]*)?", "contrib-heatmap.svg?v=" + str(int(time.time())), f.read()); f.seek(0); f.write(t); f.truncate(); f.close()'
             git add contrib-heatmap.svg data/contributions.json README.md
             git commit -m "chore: refresh contribution graph [skip ci]"
             git push

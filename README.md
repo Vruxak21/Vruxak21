@@ -35,6 +35,6 @@
 </tr></table>
 
 <!-- ═══ Row 5: Contribution heatmap (auto-refreshed daily) ═══════════════ -->
-<img src="./contrib-heatmap.svg?v=1774000000" width="860" alt="GitHub contribution graph — refreshed daily" />
+<img src="./contrib-heatmap.svg?v=1789923486" width="860" alt="GitHub contribution graph — refreshed daily" />
 
 </div>
