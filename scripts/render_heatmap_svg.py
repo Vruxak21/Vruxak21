@@ -107,6 +107,9 @@ def render(data):
   100% {{ opacity: 1; transform: translateY(0); }}
 }}
 .c {{ opacity: 0; animation: cell {CELL_DUR:.2f}s cubic-bezier(.2,.8,.2,1) both; }}
+@media (prefers-reduced-motion: reduce) {{
+  .c {{ opacity: 1 !important; transform: none !important; animation: none !important; }}
+}}
 """.strip()
 
     parts = [

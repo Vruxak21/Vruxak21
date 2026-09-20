@@ -2,8 +2,15 @@ name: Update Profile Art
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # daily at 03:00 UTC
+    - cron: "0 */3 * * *"   # every 3 hours
   workflow_dispatch:       # manual trigger
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'contrib-heatmap.svg'
+      - 'data/**'
+      - 'README.md'
 
 permissions:
   contents: write
@@ -23,9 +30,10 @@ jobs:
       - name: Install scraper deps
         run: pip install -r scripts/requirements.txt
 
-      - name: Fetch contributions (no auth needed)
+      - name: Fetch contributions
         env:
           GH_PROFILE_USER: Vruxak21
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/fetch_contributions.py
 
       - name: Render heatmap SVG
@@ -35,6 +43,19 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add contrib-heatmap.svg data/contributions.json
-          git diff --cached --quiet || git commit -m "chore: refresh contribution graph [skip ci]"
-          git push
+          
+          # If contrib-heatmap.svg or data/contributions.json changed, bust cache in README.md
+          if ! git diff --quiet contrib-heatmap.svg data/contributions.json; then
+            TIMESTAMP=$(date +%s)
+            python3 -c "
+import re
+with open('README.md', 'r') as f:
+    text = f.read()
+text = re.sub(r'contrib-heatmap\.svg(\?v=[^\"]*)?', f'contrib-heatmap.svg?v=${TIMESTAMP}', text)
+with open('README.md', 'w') as f:
+    f.write(text)
+"
+            git add contrib-heatmap.svg data/contributions.json README.md
+            git commit -m "chore: refresh contribution graph [skip ci]"
+            git push
+          fi

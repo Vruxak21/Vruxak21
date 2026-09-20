@@ -17,12 +17,50 @@ import sys
 import requests
 from bs4 import BeautifulSoup
 
-USERNAME = os.environ.get("GH_PROFILE_USER", "YOUR_GITHUB_USERNAME")
+USERNAME = os.environ.get("GH_PROFILE_USER", "Vruxak21")
 URL = f"https://github.com/users/{USERNAME}/contributions"
 OUT_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "contributions.json")
 
 
-def fetch_days():
+def fetch_days_graphql(token):
+    query = """
+    query($login: String!) {
+      user(login: $login) {
+        contributionsCollection {
+          contributionCalendar {
+            totalContributions
+            weeks {
+              contributionDays {
+                date
+                contributionCount
+              }
+            }
+          }
+        }
+      }
+    }
+    """
+    resp = requests.post(
+        "https://api.github.com/graphql",
+        json={"query": query, "variables": {"login": USERNAME}},
+        headers={"Authorization": f"Bearer {token}", "User-Agent": "profile-readme-bot/1.0"},
+        timeout=30,
+    )
+    resp.raise_for_status()
+    res = resp.json()
+    user_data = res.get("data", {}).get("user")
+    if not user_data:
+        raise ValueError("User not found or GraphQL error")
+    weeks = user_data["contributionsCollection"]["contributionCalendar"]["weeks"]
+    days = []
+    for w in weeks:
+        for d in w["contributionDays"]:
+            days.append({"date": d["date"], "count": d["contributionCount"]})
+    days.sort(key=lambda d: d["date"])
+    return days
+
+
+def fetch_days_html():
     resp = requests.get(URL, headers={"User-Agent": "profile-readme-bot/1.0"}, timeout=30)
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "html.parser")
@@ -49,6 +87,16 @@ def fetch_days():
 
     days.sort(key=lambda d: d["date"])
     return days
+
+
+def fetch_days():
+    token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
+    if token:
+        try:
+            return fetch_days_graphql(token)
+        except Exception as e:
+            print(f"GraphQL fetch failed ({e}), falling back to HTML scraper...", file=sys.stderr)
+    return fetch_days_html()
 
 
 def compute_current_streak(days):
@@ -99,7 +147,7 @@ def build_data(days):
 
     return {
         "username": USERNAME,
-        "generated_at": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "generated_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "range": {"start": days[0]["date"], "end": days[-1]["date"]},
         "total_contributions": total,
         "active_days": active_days,
