@@ -49,5 +49,6 @@ jobs:
             python3 -c 'import re, time; f=open("README.md", "r+"); t=re.sub(r"contrib-heatmap\.svg(\?v=[^\"]*)?", "contrib-heatmap.svg?v=" + str(int(time.time())), f.read()); f.seek(0); f.write(t); f.truncate(); f.close()'
             git add contrib-heatmap.svg data/contributions.json README.md
             git commit -m "chore: refresh contribution graph [skip ci]"
+            git pull --rebase origin main
             git push
           fi
