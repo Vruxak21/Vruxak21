@@ -1,13 +1,13 @@
 {
   "username": "Vruxak21",
-  "generated_at": "2026-10-31T21:16:13Z",
+  "generated_at": "2026-11-01T05:30:07Z",
   "range": {
-    "start": "2025-10-26",
-    "end": "2026-10-31"
+    "start": "2025-11-02",
+    "end": "2026-11-01"
   },
-  "total_contributions": 271,
-  "active_days": 55,
-  "avg_per_active_day": 4.9,
+  "total_contributions": 256,
+  "active_days": 51,
+  "avg_per_active_day": 5.0,
   "current_streak": {
     "length": 0,
     "start": null,
@@ -23,10 +23,6 @@
     "count": 29
   },
   "monthly": [
-    {
-      "month": "2025-10",
-      "total": 15
-    },
     {
       "month": "2025-11",
       "total": 2
@@ -74,37 +70,13 @@
     {
       "month": "2026-10",
       "total": 25
+    },
+    {
+      "month": "2026-11",
+      "total": 0
     }
   ],
   "days": [
-    {
-      "date": "2025-10-26",
-      "count": 0
-    },
-    {
-      "date": "2025-10-27",
-      "count": 3
-    },
-    {
-      "date": "2025-10-28",
-      "count": 7
-    },
-    {
-      "date": "2025-10-29",
-      "count": 2
-    },
-    {
-      "date": "2025-10-30",
-      "count": 3
-    },
-    {
-      "date": "2025-10-31",
-      "count": 0
-    },
-    {
-      "date": "2025-11-01",
-      "count": 0
-    },
     {
       "date": "2025-11-02",
       "count": 2
@@ -1559,6 +1531,10 @@
     },
     {
       "date": "2026-10-31",
+      "count": 0
+    },
+    {
+      "date": "2026-11-01",
       "count": 0
     }
   ]
