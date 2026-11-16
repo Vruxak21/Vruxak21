@@ -13,6 +13,7 @@ import json
 import os
 import re
 import sys
+import time
 
 import requests
 from bs4 import BeautifulSoup
@@ -23,7 +24,12 @@ OUT_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "contributions.
 
 
 def fetch_days():
-    resp = requests.get(URL, headers={"User-Agent": "profile-readme-bot/1.0"}, timeout=30)
+    resp = requests.get(
+        URL,
+        params={"_": str(int(time.time()))},
+        headers={"User-Agent": "profile-readme-bot/1.0", "Cache-Control": "no-cache"},
+        timeout=30,
+    )
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "html.parser")
 
@@ -31,6 +37,13 @@ def fetch_days():
     if not cells:
         print("no calendar cells found -- github markup may have changed", file=sys.stderr)
         sys.exit(1)
+
+    heading = soup.select_one("#js-contribution-activity-description")
+    heading_text = heading.get_text(" ", strip=True) if heading else ""
+    match = re.search(r"([\d,]+)\s+contributions\s+in the last year", heading_text, re.I)
+    if not match:
+        raise RuntimeError("GitHub contribution total was not found in the response")
+    reported_total = int(match.group(1).replace(",", ""))
 
     days = []
     for td in cells:
@@ -48,6 +61,11 @@ def fetch_days():
         days.append({"date": date, "count": count, "level": int(td.get("data-level") or 0)})
 
     days.sort(key=lambda d: d["date"])
+    parsed_total = sum(d["count"] for d in days)
+    if parsed_total != reported_total:
+        raise RuntimeError(
+            f"GitHub contribution total mismatch: heading={reported_total}, cells={parsed_total}"
+        )
     return days
 
 
