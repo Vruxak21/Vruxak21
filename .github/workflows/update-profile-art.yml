@@ -5,7 +5,8 @@ name: Update profile art
 
 "on":
   schedule:
-    - cron: "0 6 * * *"    # 06:00 UTC / 11:30 AM IST every day
+    - cron: "0 6 * * *"    # 06:00 UTC / 11:30 AM IST
+    - cron: "0 18 * * *"   # 18:00 UTC / 11:30 PM IST
   workflow_dispatch: {}
   push:
     branches: [main]
